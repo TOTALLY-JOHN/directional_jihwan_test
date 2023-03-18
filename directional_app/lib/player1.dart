@@ -9,7 +9,7 @@ class PlayerOneDisplay extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(10),
       child: Text(
-        "Player 1 (O)",
+        isMyTurn ? "Player 1 (O) 차례" : "Player 1 (O)",
         style: TextStyle(
           fontSize: 18,
           color: isMyTurn ? Colors.amberAccent : Colors.white,

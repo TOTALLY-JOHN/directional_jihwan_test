@@ -9,7 +9,7 @@ class PlayerTwoDisplay extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(10),
       child: Text(
-        "Player 2 (X)",
+        isMyTurn ? "Player 2 (X) 차례" : "Player 2 (X)",
         style: TextStyle(
           fontSize: 18,
           color: isMyTurn ? Colors.amberAccent : Colors.white,
